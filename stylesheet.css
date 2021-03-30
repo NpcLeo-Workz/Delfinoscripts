@@ -1,0 +1,57 @@
+/*Header animation*/
+/*Desktop*/
+#site-header.scrolling-active{
+	background-color: #fff;
+	position: fixed;
+}
+#menu-primair-menu.scrolling-nav>li>a:active>span{
+	color:#0088F7;
+}
+#menu-primair-menu.scrolling-nav>li:hover>a>span{
+	color:#0088F7;
+	text-shadow: 1px 1px 2px "grey";
+	transition: 0.5s;
+}
+#menu-primair-menu.scrolling-nav>li>a>span{
+	color:#545454;
+	transition: color 0.5s;
+}
+/*Tablet-phone*/
+.scrolling-active>a>span{
+	color:#545454;
+    transition: color 0.5s;
+}
+.scrolling-active:hover>a>span{
+	color:#0088F7;
+    transition: color 0.5s;
+}
+.scrolling-active>a>i{
+	color:#545454;
+    transition: color 0.5s;
+}
+.scrolling-active:hover>a>i{
+	color:#0088F7;
+    transition: color 0.5s;
+}
+
+/*de shapedivider animaties*/
+body {
+     overflow-x:hidden;
+} 
+.elementor-shape-bottom {
+     bottom: -1px;
+     animation: wave 32s cubic-bezier( 0.36, 0.45, 0.63, 0.53) infinite;
+     width: 210%;
+ } 
+
+@keyframes wave {
+   0% {
+     margin-left: 0;
+   }
+     50% {
+     margin-left: -1600px;
+   }
+   100% {
+     margin-left: 0px;
+   }
+ }  
