@@ -3,6 +3,7 @@
 #site-header.scrolling-active{
 	background-color: #fff;
 	position: fixed;
+    transition: background 0.5s;
 }
 #menu-primair-menu.scrolling-nav>li>a:active>span{
 	color:#0088F7;
