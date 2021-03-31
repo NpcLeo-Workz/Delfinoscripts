@@ -127,7 +127,7 @@ body{
   position: absolute;
   margin-bottom: -720px;
   bottom: 0;
-  left: 300;
+  left: 0;
   object-fit: contain;
 }
 #bubbles2{
@@ -135,7 +135,7 @@ body{
   position: absolute;
   margin-bottom: -720px;
   bottom: 0;
-  right: 300;
+  right: 0;
   object-fit: contain;
 }
 
