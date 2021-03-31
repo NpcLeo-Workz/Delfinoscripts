@@ -85,26 +85,24 @@ body{
 #man1{
   margin-top: 150px;
   left: 0;
-  margin-left: -400px;
   z-index: 2;
-  width: 20vw;
+  width: 15vw;
 }
 #vrouw1{
   right: 0;
   bottom: 100px;
-  width: 20vw;
-  margin-right: -400px;
+  width: 15vw;
 }
 #dolfijn{
   margin-top: 500px;
   left: 0;
-  width: 10vw;
+  width: 6vw;
 }
 #vrouw2{
   right: 0;
   bottom: -120px;
-  width: 12vw;
-  margin-right: -300px;
+  width: 10vw;
+  margin-right: -20%;
 }
 
 .teksten{
@@ -153,19 +151,21 @@ body{
   }
   #man1{
     width: 40vw;
+    margin-left: -10%;
   }
-
   #vrouw1{
     width: 30vw;
+    margin-right: -10%;
   }
   #vrouw2{
     width: 20vw;
+    margin-right: -10%;
   }
   #bubbles{
-    width: 20vw;
+    width: 15vw;
   }
   #bubbles2{
-    width: 20vw;
+    width: 15vw;
   }
 }
 
