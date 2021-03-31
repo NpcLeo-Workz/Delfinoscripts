@@ -1,4 +1,35 @@
 .tablepress {
     width:100% !important;
 }
+
+@media screen and (max-width: 800px){
+    .tablepress thead{
+        border: none;
+        height: 1px;
+        margin: -1px;
+        overflow: hidden;
+        padding: 0;
+        position: absolute;
+        width: 1px;
+        font-size: 15px;
+        font-style: bold;
+    }
+    .dataTables_filter>label>input{
+        width: 150px !important;
+    }
+    .tablepress tr{
+        border-bottom: 3px solid #F68646;
+    display: block;
+    margin-bottom: .625em;
+    }
+    .tablepress td{
+        border-bottom: 1px solid #ddd;
+        display: block;
+        font-size: .8em;
+        text-align: left;
+    }
+    .tablepress td:last-child{
+        border-bottom: 0;
+    }
+}
 /* nu ben ik niet meer alleen*/
