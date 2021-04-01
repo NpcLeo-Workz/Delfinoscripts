@@ -26,10 +26,35 @@
         border-bottom: 1px solid #ddd;
         display: block;
         font-size: .8em;
-        text-align: left;
+        text-align: right;
     }
     .tablepress td:last-child{
         border-bottom: 0;
     }
+    .tablepress td::before{
+        font-weight: bold;
+        text-transform: uppercase;
+        float: left;
+    }
+    .tablepress td.column-1::before{
+        content: "Zwemstijl";
+    }
+    .tablepress td.column-2::before{
+        content: "Tijd";
+    }
+    .tablepress td.column-3::before{
+        content: "Naam";
+    }
+    .tablepress td.column-4::before{
+        content: "Geboortejaar";
+    }
+    .tablepress td.column-5::before{
+        content: "Datum van wedstrijd";
+    }
+    .tablepress td.column-6::before{
+        content: "Plaats van wedstrijd";
+    }
+    .tablepress td.column-7::before{
+        content: "Niveau";
+    }
 }
-/* nu ben ik niet meer alleen*/
