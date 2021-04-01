@@ -7,7 +7,6 @@ window.addEventListener('scroll', function(){
     header.classList.toggle('scrolling-active', window.scrollY>0);
 
     /* Paralaxscrolling home page */
-    let bg = document.getElementById("bg");
     let man = document.getElementById("man1");
     let vrouw1 = document.getElementById("vrouw1");
     let dolfijn = document.getElementById("dolfijn");
@@ -19,7 +18,6 @@ window.addEventListener('scroll', function(){
 
 
         var value = window.scrollY;
-        bg.style.top = value * 0.4 + 'px';
         man.style.left = value * 1 + 'px';
         vrouw1.style.right = value * 0.6 + 'px';
         vrouw2.style.right = value * 1 + 'px';

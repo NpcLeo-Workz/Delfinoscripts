@@ -80,19 +80,18 @@ body{
 #dolfijn, #vrouw1, #man1, #vrouw2{
   position: absolute;
   object-fit: contain;
-  width: 20vw;
 }
 
 #man1{
-  margin-top: 200px;
+  margin-top: 150px;
   left: 0;
-  margin-left: 50px;
+  z-index: 2;
+  width: 15vw;
 }
 #vrouw1{
   right: 0;
   bottom: 100px;
   width: 15vw;
-  margin-right: 100px;
 }
 #dolfijn{
   margin-top: 500px;
@@ -102,48 +101,141 @@ body{
 #vrouw2{
   right: 0;
   bottom: -120px;
-  width: 8vw;
-  margin-right: 200px;
+  width: 10vw;
+  margin-right: -20%;
 }
 
 .teksten{
   display: inline-block;
   text-align: center;
+  z-index: 5;
 }
 #text{
   position: relative;
   color: #fff;
+  z-index: 5;
   font-size: 5em;
   text-shadow: 4px 4px 10px rgba(18,18,18,0.7);
 }
 #text2{
   position: relative;
   color: #fff;
+  z-index: 5;
   font-size: 2em;
   text-shadow: 4px 4px 10px rgba(18,18,18,0.7);
 }
 #bubbles{
   width: 10vw;
   position: absolute;
-  margin-bottom: -720px;
+  margin-bottom: -60%;
   bottom: 0;
-  left: 300;
+  left: 0;
   object-fit: contain;
 }
 #bubbles2{
   width: 10vw;
   position: absolute;
-  margin-bottom: -720px;
+  margin-bottom: -50%;
   bottom: 0;
-  right: 300;
+  right: 0;
   object-fit: contain;
 }
 
+@media only screen and (max-width: 1024px) {
+  #text{
+    font-size: 3.5em;
+  }
+  #text2{
+    z-index: 5;
+    font-size: 2.5em;
+  }
+  #man1{
+    width: 40vw;
+    margin-left: -10%;
+  }
+  #vrouw1{
+    width: 30vw;
+    margin-right: -10%;
+  }
+  #vrouw2{
+    width: 20vw;
+    margin-right: -10%;
+  }
+  #bubbles{
+    width: 20vw;
+    margin-bottom: -140%;;
+  }
+  #bubbles2{
+    width: 20vw;
+    margin-bottom: -120%;
+  }
+}
 
+@media only screen and (max-width: 768px) {
+  #text{
+    font-size: 3em;
+  }
+  #text2{
+    z-index: 5;
+    font-size: 1.5em;
+  }
+  #man1{
+    width: 30vw;
+  }
+  #dolfijn{
+    width: 15vw;
+    margin-right: -200px;
+  }
+  #vrouw1{
+    width: 25vw;
+  }
+  #vrouw2{
+    width: 15vw;
+  }
+  #bubbles{
+    width: 15vw;
+    margin-bottom: -90%;
+  }
+  #bubbles2{
+    width: 15vw;
+    margin-bottom: -100%;
+  }
+}
 
-
-
-
+@media only screen and (max-width: 375px) {
+  #text{
+    font-size: 2.2em;
+  }
+  #text2{
+    z-index: 5;
+    font-size: 1em;
+  }
+  #man1{
+    width: 40vw;
+    margin-left: -150px;
+  }
+  #dolfijn{
+    margin-top: 200px;
+    margin-right: -200px;
+    width: 20vw;
+  }
+  #vrouw1{
+    width: 40vw;  
+    margin-right: -150px;
+  }
+  #vrouw2{
+    width: 30vw;  
+    margin-right: -120px;
+  }
+  #bubbles{
+    width: 20vw;
+    margin-bottom: -180%;
+  }
+  #bubbles2{
+    width: 20vw;
+    margin-bottom: -150%;
+  }
+}
 
 
 
