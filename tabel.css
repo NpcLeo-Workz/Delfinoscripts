@@ -1,5 +1,9 @@
 .tablepress {
     width:100% !important;
+    font-family: Noto Sans;
+}
+.tablepress thead{
+    font-family: Poppins;
 }
 
 @media screen and (max-width: 800px){
@@ -35,6 +39,7 @@
         font-weight: bold;
         text-transform: uppercase;
         float: left;
+        font-family: Poppins;
     }
     .tablepress td.column-1::before{
         content: "Zwemstijl";
