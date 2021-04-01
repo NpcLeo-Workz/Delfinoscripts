@@ -127,7 +127,7 @@ body{
 #bubbles{
   width: 10vw;
   position: absolute;
-  margin-bottom: -720px;
+  margin-bottom: -60%;
   bottom: 0;
   left: 0;
   object-fit: contain;
@@ -135,7 +135,7 @@ body{
 #bubbles2{
   width: 10vw;
   position: absolute;
-  margin-bottom: -720px;
+  margin-bottom: -50%;
   bottom: 0;
   right: 0;
   object-fit: contain;
@@ -162,10 +162,12 @@ body{
     margin-right: -10%;
   }
   #bubbles{
-    width: 15vw;
+    width: 20vw;
+    margin-bottom: -140%;;
   }
   #bubbles2{
-    width: 15vw;
+    width: 20vw;
+    margin-bottom: -120%;
   }
 }
 
@@ -191,10 +193,12 @@ body{
     width: 15vw;
   }
   #bubbles{
-    width: 20vw;
+    width: 15vw;
+    margin-bottom: -90%;
   }
   #bubbles2{
-    width: 20vw;
+    width: 15vw;
+    margin-bottom: -100%;
   }
 }
 
@@ -225,18 +229,13 @@ body{
   }
   #bubbles{
     width: 20vw;
+    margin-bottom: -180%;
   }
   #bubbles2{
     width: 20vw;
+    margin-bottom: -150%;
   }
 }
-
-
-
-
-
-
-
 
 
 
