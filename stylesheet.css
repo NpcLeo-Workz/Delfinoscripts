@@ -20,6 +20,11 @@
 	color:#545454;
 	transition: color 0.5s;
 }
+/*call to action aansluiten*/
+#menu-item-41{
+  background-color: #F79900;
+  border-radius: 10px;
+}
 /*Tablet-phone*/
 .scrolling-active>a>span{
 	color:#545454;
@@ -45,17 +50,14 @@
 	color:#0088F7;
     transition: color 0.5s;
 }
-
-
-
-
+/*parallaxscrolling home view*/
 *{
   margin:0;
   padding: 0;
   font-family: 'Poppins' sans-serif;
 }
 body{
-  min-height: 2500px;
+  /*min-height: 2500px; NOOOOOOIT DE BODY HEIGHT OVERSCHRIJVEN*/ 
   margin: 0;
   background: #fff;
 }
@@ -236,10 +238,6 @@ body{
     margin-bottom: -150%;
   }
 }
-
-
-
-
 /*de shapedivider animaties*/
 body {
      overflow-x:hidden;
