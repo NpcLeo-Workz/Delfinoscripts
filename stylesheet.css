@@ -20,6 +20,11 @@
 	color:#545454;
 	transition: color 0.5s;
 }
+/*call to action aansluiten*/
+#menu-item-41{
+  background-color: #F79900;
+  border-radius: 10px;
+}
 /*Tablet-phone*/
 .scrolling-active>a>span{
 	color:#545454;
@@ -45,17 +50,13 @@
 	color:#0088F7;
     transition: color 0.5s;
 }
-
-
-
-
+/*parallaxscrolling home view*/
 *{
   margin:0;
   padding: 0;
   font-family: 'Poppins' sans-serif;
 }
 body{
-  min-height: 2500px;
   margin: 0;
   background: #fff;
 }
@@ -83,7 +84,8 @@ body{
 }
 
 #man1{
-  margin-top: 20%;
+  margin-top: -20%;
+  margin-left: -15%;
   left: 0;
   z-index: 2;
   width: 15vw;
@@ -94,7 +96,7 @@ body{
   width: 15vw;
 }
 #dolfijn{
-  margin-top: 40%;
+  margin-top: 20%;
   left: 0;
   width: 6vw;
 }
@@ -237,7 +239,28 @@ body{
   }
 }
 
-
+/* contact form 7 */
+.wpcf7{
+  border: 0px solid #fff;
+}
+.wpcf7 label, .wpcf7 span{
+  color:#fff;
+}
+.wpcf7-form{
+  margin: 25px 25px 0 25px;
+}
+form input[type="text"], form input[type="password"], form input[type="email"], form input[type="url"], form input[type="date"], form input[type="month"], form input[type="time"], form input[type="datetime"], form input[type="datetime-local"], form input[type="week"], form input[type="number"], form input[type="search"], form input[type="tel"], form input[type="color"], form select, form textarea {
+  background-color: #fff;
+}
+.wpcf7-textarea{
+  width: 100%
+}
+.wpcf7 input{
+  width:50%;
+}
+form input[type="submit"]{
+  background-color: #13aff0;
+}
 
 
 /*de shapedivider animaties*/
