@@ -1,5 +1,9 @@
 .tablepress {
     width:100% !important;
+    font-family: Noto Sans;
+}
+.tablepress thead{
+    font-family: Poppins;
 }
 
 @media screen and (max-width: 800px){
@@ -26,10 +30,231 @@
         border-bottom: 1px solid #ddd;
         display: block;
         font-size: .8em;
-        text-align: left;
+        text-align: right;
     }
     .tablepress td:last-child{
         border-bottom: 0;
     }
+    .tablepress td::before{
+        font-weight: bold;
+        text-transform: uppercase;
+        float: left;
+        font-family: Poppins;
+    }
+    /*tabel heren*/
+    #tablepress-2 td.column-1::before{
+        content: "Zwemstijl";
+    }
+    #tablepress-2 td.column-2::before{
+        content: "Tijd";
+    }
+    #tablepress-2 td.column-3::before{
+        content: "Naam";
+    }
+    #tablepress-2 td.column-4::before{
+        content: "Geboortejaar";
+    }
+    #tablepress-2 td.column-5::before{
+        content: "Datum van wedstrijd";
+    }
+    #tablepress-2 td.column-6::before{
+        content: "Plaats van wedstrijd";
+    }
+    #tablepress-2 td.column-7::before{
+        content: "Niveau";
+    }
+    /*tabel vrouwen*/
+    #tablepress-3 td.column-1::before{
+        content: "Zwemstijl";
+    }
+    #tablepress-3 td.column-2::before{
+        content: "Tijd";
+    }
+    #tablepress-3 td.column-3::before{
+        content: "Naam";
+    }
+    #tablepress-3 td.column-4::before{
+        content: "Geboortejaar";
+    }
+    #tablepress-3 td.column-5::before{
+        content: "Datum van wedstrijd";
+    }
+    #tablepress-3 td.column-6::before{
+        content: "Plaats van wedstrijd";
+    }
+    #tablepress-3 td.column-7::before{
+        content: "Niveau";
+    }
+    /*tabel club kampioen*/
+    #tablepress-4 td.column-1::before{
+        content: "Jaar";
+    }
+    #tablepress-4 td.column-2::before{
+        content: "Clubkampioen";
+    }
+    #tablepress-4 td.column-3::before{
+        content: "Tweede Plaats";
+    }
+    #tablepress-4 td.column-4::before{
+        content: "3de Plaats";
+    }
+    /*trainings uren*/
+    #tablepress-5 td.column-1::before{
+        content: "Weekdag";
+    }
+    #tablepress-5 td.column-2::before{
+        content: "Uur";
+    }
+    #tablepress-5 td.column-3::before{
+        content: "Plaats";
+    }
+    #tablepress-5 td.column-4::before{
+        content: "Opmerking";
+    }
+    #tablepress-7 td.column-1::before{
+        content: "Weekdag";
+    }
+    #tablepress-7 td.column-2::before{
+        content: "Uur";
+    }
+    #tablepress-7 td.column-3::before{
+        content: "Plaats";
+    }
+    #tablepress-5 td.column-4::before{
+        content: "Opmerking";
+    }
+    /*Uitslagen*/
+    .tablepress {
+    width:100% !important;
+    font-family: Noto Sans JP;
 }
-/* nu ben ik niet meer alleen*/
+.tablepress thead{
+    font-family: Poppins;
+}
+
+@media screen and (max-width: 800px){
+    .tablepress thead{
+        border: none;
+        height: 1px;
+        margin: -1px;
+        overflow: hidden;
+        padding: 0;
+        position: absolute;
+        width: 1px;
+        font-size: 15px;
+        font-style: bold;
+    }
+    .dataTables_filter>label>input{
+        width: 150px !important;
+    }
+    .tablepress tr{
+        border-bottom: 3px solid #F68646;
+    display: block;
+    margin-bottom: .625em;
+    }
+    .tablepress td{
+        border-bottom: 1px solid #ddd;
+        display: block;
+        font-size: .8em;
+        text-align: right;
+    }
+    .tablepress td:last-child{
+        border-bottom: 0;
+    }
+    .tablepress td::before{
+        font-weight: bold;
+        text-transform: uppercase;
+        float: left;
+        font-family: Poppins;
+    }
+    /*tabel heren*/
+    #tablepress-2 td.column-1::before{
+        content: "Zwemstijl";
+    }
+    #tablepress-2 td.column-2::before{
+        content: "Tijd";
+    }
+    #tablepress-2 td.column-3::before{
+        content: "Naam";
+    }
+    #tablepress-2 td.column-4::before{
+        content: "Geboortejaar";
+    }
+    #tablepress-2 td.column-5::before{
+        content: "Datum van wedstrijd";
+    }
+    #tablepress-2 td.column-6::before{
+        content: "Plaats van wedstrijd";
+    }
+    #tablepress-2 td.column-7::before{
+        content: "Niveau";
+    }
+    /*tabel vrouwen*/
+    #tablepress-3 td.column-1::before{
+        content: "Zwemstijl";
+    }
+    #tablepress-3 td.column-2::before{
+        content: "Tijd";
+    }
+    #tablepress-3 td.column-3::before{
+        content: "Naam";
+    }
+    #tablepress-3 td.column-4::before{
+        content: "Geboortejaar";
+    }
+    #tablepress-3 td.column-5::before{
+        content: "Datum van wedstrijd";
+    }
+    #tablepress-3 td.column-6::before{
+        content: "Plaats van wedstrijd";
+    }
+    #tablepress-3 td.column-7::before{
+        content: "Niveau";
+    }
+    /*tabel club kampioen*/
+    #tablepress-4 td.column-1::before{
+        content: "Jaar";
+    }
+    #tablepress-4 td.column-2::before{
+        content: "Clubkampioen";
+    }
+    #tablepress-4 td.column-3::before{
+        content: "Tweede Plaats";
+    }
+    #tablepress-4 td.column-4::before{
+        content: "3de Plaats";
+    }
+    /*trainings uren*/
+    #tablepress-5 td.column-1::before{
+        content: "Weekdag";
+    }
+    #tablepress-5 td.column-2::before{
+        content: "Uur";
+    }
+    #tablepress-5 td.column-3::before{
+        content: "Plaats";
+    }
+    #tablepress-5 td.column-4::before{
+        content: "Opmerking";
+    }
+    #tablepress-7 td.column-1::before{
+        content: "Weekdag";
+    }
+    #tablepress-7 td.column-2::before{
+        content: "Uur";
+    }
+    #tablepress-7 td.column-3::before{
+        content: "Plaats";
+    }
+    #tablepress-7 td.column-4::before{
+        content: "Opmerking";
+    }
+    /*uitslagen*/
+    #tablepress-6 td.column-1::before{
+        content: "Plaats";
+    }
+    #tablepress-6 td.column-2::before{
+        content: "Datum";
+    }
+}
+}
