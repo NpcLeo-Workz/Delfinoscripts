@@ -41,25 +41,61 @@
         float: left;
         font-family: Poppins;
     }
-    .tablepress td.column-1::before{
+    /*tabel heren*/
+    #tablepress-2 td.column-1::before{
         content: "Zwemstijl";
     }
-    .tablepress td.column-2::before{
+    #tablepress-2 td.column-2::before{
         content: "Tijd";
     }
-    .tablepress td.column-3::before{
+    #tablepress-2 td.column-3::before{
         content: "Naam";
     }
-    .tablepress td.column-4::before{
+    #tablepress-2 td.column-4::before{
         content: "Geboortejaar";
     }
-    .tablepress td.column-5::before{
+    #tablepress-2 td.column-5::before{
         content: "Datum van wedstrijd";
     }
-    .tablepress td.column-6::before{
+    #tablepress-2 td.column-6::before{
         content: "Plaats van wedstrijd";
     }
-    .tablepress td.column-7::before{
+    #tablepress-2 td.column-7::before{
         content: "Niveau";
     }
+    /*tabel vrouwen*/
+    #tablepress-3 td.column-1::before{
+        content: "Zwemstijl";
+    }
+    #tablepress-3 td.column-2::before{
+        content: "Tijd";
+    }
+    #tablepress-3 td.column-3::before{
+        content: "Naam";
+    }
+    #tablepress-3 td.column-4::before{
+        content: "Geboortejaar";
+    }
+    #tablepress-3 td.column-5::before{
+        content: "Datum van wedstrijd";
+    }
+    #tablepress-3 td.column-6::before{
+        content: "Plaats van wedstrijd";
+    }
+    #tablepress-3 td.column-7::before{
+        content: "Niveau";
+    }
+    /*tabel club kampioen*/
+    #tablepress-4 td.column-1::before{
+        content: "Jaar";
+    }
+    #tablepress-4 td.column-2::before{
+        content: "Clubkampioen";
+    }
+    #tablepress-4 td.column-3::before{
+        content: "Tweede Plaats";
+    }
+    #tablepress-4 td.column-4::before{
+        content: "3de Plaats";
+    } 
 }
