@@ -20,6 +20,11 @@
 	color:#545454;
 	transition: color 0.5s;
 }
+/*call to action aansluiten*/
+#menu-item-41{
+  background-color: #F79900;
+  border-radius: 10px;
+}
 /*Tablet-phone*/
 .scrolling-active>a>span{
 	color:#545454;
@@ -45,17 +50,14 @@
 	color:#0088F7;
     transition: color 0.5s;
 }
-
-
-
-
+/*parallaxscrolling home view*/
 *{
   margin:0;
   padding: 0;
   font-family: 'Poppins' sans-serif;
 }
 body{
-  min-height: 2500px;
+  /*min-height: 2500px;*/
   margin: 0;
   background: #fff;
 }
@@ -83,7 +85,7 @@ body{
 }
 
 #man1{
-  margin-top: 150px;
+  margin-top: 20%;
   left: 0;
   z-index: 2;
   width: 15vw;
@@ -94,13 +96,13 @@ body{
   width: 15vw;
 }
 #dolfijn{
-  margin-top: 500px;
+  margin-top: 40%;
   left: 0;
   width: 6vw;
 }
 #vrouw2{
   right: 0;
-  bottom: -120px;
+  margin-right: -40%;
   width: 10vw;
   margin-right: -20%;
 }
@@ -236,10 +238,6 @@ body{
     margin-bottom: -150%;
   }
 }
-
-
-
-
 /*de shapedivider animaties*/
 body {
      overflow-x:hidden;
