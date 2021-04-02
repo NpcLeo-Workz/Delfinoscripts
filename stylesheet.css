@@ -244,8 +244,7 @@ body {
      font-family: 'Poppins' , sans-serif;
 } 
 .elementor-shape-bottom {
-     bottom: -1px;
-     animation: wave 32s cubic-bezier( 0.36, 0.45, 0.63, 0.53) infinite;
+     animation: wave 22s cubic-bezier( 0.36, 0.45, 0.63, 0.83) infinite;
      width: 210%;
  } 
 
@@ -259,7 +258,21 @@ body {
    100% {
      margin-left: 0px;
    }
- }  
+ }
+
+ @media only screen and (max-width: 375px) {
+  @keyframes wave {
+    0% {
+      margin-left: 0;
+    }
+      50% {
+      margin-left: -310px;
+    }
+    100% {
+      margin-left: 0px;
+    }
+  }  
+ }
 
  /* chevron */
  .scroll{
@@ -311,8 +324,8 @@ width: 50%;
 transform: skew(0deg, -30deg);
 }
 
-.chevron span{
-  color: #e0e0e0;
+ .scroll span{
+  color: #ffffff;
   font-size: 1em;
 }
 
