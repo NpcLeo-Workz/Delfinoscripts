@@ -248,31 +248,18 @@ body {
      width: 210%;
  } 
 
-@keyframes wave {
+ @keyframes wave {
    0% {
-     margin-left: 0;
+     margin-right: 0%;
    }
      50% {
-     margin-left: -1600px;
+     margin-left: -100%;
    }
    100% {
-     margin-left: 0px;
+     margin-right: 0%;
    }
  }
 
- @media only screen and (max-width: 375px) {
-  @keyframes wave {
-    0% {
-      margin-left: 0;
-    }
-      50% {
-      margin-left: -310px;
-    }
-    100% {
-      margin-left: 0px;
-    }
-  }  
- }
 
  /* chevron */
  .scroll{
