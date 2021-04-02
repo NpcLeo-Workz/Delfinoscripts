@@ -364,3 +364,34 @@ to {
  .wpcf7 input[type="submit"]:hover{
   background-color: #005FAB;
 }
+/*searchpage*/
+.search #content-wrap{
+  padding-top: 74px !important;
+}
+.search main{
+  background-image: url(/wp-content/uploads/2021/04/Group-120.png);
+  color: white;
+  font-family: 'Noto Sans';
+}
+.search main a{
+  color: white;
+  font-family: 'Noto Sans';
+}
+.search main p{
+  color: white;
+  font-family: 'Noto Sans';
+}
+.search footer a, h3{
+  font-family: 'Noto Sans' !important;
+}
+/*event page*/
+.single-tribe_events main #content-wrap{
+  padding-top: 74px !important;
+}
+.single-tribe_events main #primary{
+  width: 100%;
+  border-style: none;
+}
+.single-tribe_events aside{
+  display:none;
+}
