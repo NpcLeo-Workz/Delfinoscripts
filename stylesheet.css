@@ -260,3 +260,107 @@ body {
      margin-left: 0px;
    }
  }  
+
+ /* chevron */
+ .scroll{
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  bottom: 130px;
+  left: 0;
+  right: 0;
+  z-index: 999999;
+}
+/*CHEVRON*/
+.chevron {
+position: absolute;
+width: 30px;
+height: 8px;
+opacity: 0;
+transform: scale3d(0.5, 0.5, 0.5);
+animation: move 3s ease-out infinite;
+}
+
+.chevron:first-child {
+animation: move 3s ease-out 1s infinite;
+}
+
+.chevron:nth-child(2) {
+animation: move 3s ease-out 2s infinite;
+}
+
+.chevron:before,
+.chevron:after {
+content: ' ';
+position: absolute;
+top: 0;
+height: 100%;
+width: 51%;
+background: #fff;
+}
+
+.chevron:before {
+left: 0;
+transform: skew(0deg, 30deg);
+}
+
+.chevron:after {
+right: 0;
+width: 50%;
+transform: skew(0deg, -30deg);
+}
+
+.chevron span{
+  color: #e0e0e0;
+  font-size: 1em;
+}
+
+@keyframes move {
+25% {
+  opacity: 1;
+
+}
+33% {
+  opacity: 1;
+  transform: translateY(30px);
+}
+67% {
+  opacity: 1;
+  transform: translateY(40px);
+}
+100% {
+  opacity: 0;
+  transform: translateY(55px) scale3d(0.5, 0.5, 0.5);
+}
+  }
+
+@keyframes pulse {
+to {
+  opacity: 1;
+  }
+}
+
+/* Contact form 7 */
+.wpcf7{
+  background-color: #ffffff;
+  padding: 25px 25px 25px 25px!important;
+	border-radius:20px;
+	font-weight:normal;
+}
+
+.wpcf7 input[type="text"],
+ .wpcf7 input[type="email"],
+ .wpcf7 input[type="textarea"],
+ textarea {
+     font-size: 16px;
+     color: #121212;
+     background-color: #FFFFFF;
+ }
+ .wpcf7 input[type="submit"]{
+   background-color: #F79900;
+ }
+
+ .wpcf7 input[type="submit"]:hover{
+  background-color: #005FAB;
+}
