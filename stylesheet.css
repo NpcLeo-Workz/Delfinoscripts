@@ -377,3 +377,25 @@ to {
  .wpcf7 input[type="submit"]:hover{
   background-color: #005FAB;
 }
+/*404page*/
+.search #content-wrap{
+  padding-top: 74px !important;
+}
+.search main{
+  background-image: url(/wp-content/uploads/2021/04/Group-120.png);
+  color: white;
+}
+.search main a{
+  color: white;
+}
+/*event page*/
+.single-tribe_events main #content-wrap{
+  padding-top: 74px !important;
+}
+.single-tribe_events main #primary{
+  width: 100%;
+  border-style: none;
+}
+.single-tribe_events aside{
+  display:none;
+}
