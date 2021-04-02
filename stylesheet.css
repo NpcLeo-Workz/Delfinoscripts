@@ -267,7 +267,7 @@ body {
   display: flex;
   justify-content: center;
   position: absolute;
-  bottom: 100px;
+  bottom: 130px;
   left: 0;
   right: 0;
   z-index: 999999;
@@ -311,9 +311,9 @@ width: 50%;
 transform: skew(0deg, -30deg);
 }
 
-.Scroll span{
+.chevron span{
   color: #e0e0e0;
-  font-size: 1.5em;
+  font-size: 1em;
 }
 
 @keyframes move {
@@ -341,3 +341,26 @@ to {
   }
 }
 
+/* Contact form 7 */
+.wpcf7{
+  background-color: #ffffff;
+  padding: 25px 25px 25px 25px!important;
+	border-radius:20px;
+	font-weight:normal;
+}
+
+.wpcf7 input[type="text"],
+ .wpcf7 input[type="email"],
+ .wpcf7 input[type="textarea"],
+ textarea {
+     font-size: 16px;
+     color: #121212;
+     background-color: #FFFFFF;
+ }
+ .wpcf7 input[type="submit"]{
+   background-color: #F79900;
+ }
+
+ .wpcf7 input[type="submit"]:hover{
+  background-color: #005FAB;
+}
