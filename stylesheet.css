@@ -240,26 +240,24 @@ body{
 }
 /*de shapedivider animaties*/
 body {
-     overflow-x:hidden;
-     font-family: 'Poppins' , sans-serif;
+  overflow-x:hidden;
+  font-family: 'Poppins' , sans-serif;
 } 
 .elementor-shape-bottom {
-     animation: wave 22s cubic-bezier( 0.36, 0.45, 0.63, 0.83) infinite;
-     width: 210%;
- } 
+  animation: wave 22s cubic-bezier( 0.36, 0.45, 0.63, 0.83) infinite;
+  width: 210%;
+} 
 
- @keyframes wave {
-   0% {
-     margin-right: 0%;
-   }
-     50% {
-     margin-left: -100%;
-   }
-   100% {
-     margin-right: 0%;
-   }
- }
-
+@keyframes wave {
+0% {
+  margin-right: 0%;
+}
+  50% {
+  margin-left: -100%;
+}
+100% {
+  margin-right: 0%;
+}
 
  /* chevron */
  .scroll{
